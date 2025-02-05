@@ -1,14 +1,11 @@
 const express = require("express");
-const cors = require("cors"); // Import the cors package
+const cors = require("cors");
 const app = express();
 const port = 3313;
 
 app.use(cors());
-app.get("/api/example", (req, res) => {
-  res.json({ message: "This is a mock response" });
-});
 
-app.get("/api/users", (req, res) => {
+app.get("/api/collection", (req, res) => {
   res.json([
     { id: 1, name: "John Doe" },
     { id: 2, name: "Jane Doe" },
