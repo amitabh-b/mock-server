@@ -1,0 +1,58 @@
+const LEAD_TIME_BY_STAGES_MOCK = {
+  rating: "success",
+  median: 9958844.33,
+  mean: 9611423.69,
+  p90: 1.2484245e7,
+  p95: 1.266707758e7,
+  totalTickets: 56,
+  stageBreakdown: [
+    {
+      stageKey: "coding",
+      stageOrder: 2,
+      application: "JIRA",
+      startEvent: "Development Phase",
+      median: 129298.0,
+      mean: 415087.86,
+      count: 14,
+      p90: 1499718.9,
+      p95: 1801707.0,
+    },
+    {
+      stageKey: "deployment",
+      stageOrder: 5,
+      application: "JIRA",
+      startEvent: "Deployment Phase",
+      median: 1.1377709e7,
+      mean: 1.09488499e7,
+      count: 52,
+      p90: 1.18324169e7,
+      p95: 1.195248187e7,
+    },
+    {
+      stageKey: "planning",
+      stageOrder: 1,
+      application: "JIRA",
+      startEvent: "Planning Phase",
+      median: 570608.17,
+      mean: 649193.32,
+      count: 50,
+      p90: 1167529.0,
+      p95: 1346120.42,
+    },
+    {
+      stageKey: "review",
+      stageOrder: 3,
+      application: "GITHUB",
+      startEvent: "Review Phase",
+      median: 0.0,
+      mean: 0.0,
+      count: 0,
+      p90: 0.0,
+      p95: 0.0,
+    },
+  ],
+};
+
+module.exports = {
+  LEAD_TIME_BY_STAGES_MOCK,
+};
